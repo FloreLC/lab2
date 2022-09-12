@@ -1,5 +1,6 @@
 abstract type animal end
 
+
 struct grenouille <: animal
     name::String
 end
@@ -8,3 +9,9 @@ end
 struct lamantin <: animal
     name::String
 end
+
+struct chien <: animal
+  name::String
+end
+
+
